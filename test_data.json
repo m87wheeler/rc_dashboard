@@ -1,0 +1,69 @@
+{
+  "Sheet1": [
+    {
+      "Year": "2020",
+      "Month": "October",
+      "Total From Start": "8",
+      "Brought Forward": "2",
+      "New Claims": "15",
+      "Previous Backlog": "0",
+      "Re-opend in Month": "0",
+      "Closed": "12",
+      "Carried Forward": "3",
+      "Settled at £nil": "10",
+      "Settled Claims": "11"
+    },
+    {
+      "Year": "2020",
+      "Month": "November",
+      "Total From Start": "5",
+      "Brought Forward": "3",
+      "New Claims": "8",
+      "Previous Backlog": "0",
+      "Re-opend in Month": "1",
+      "Closed": "7",
+      "Carried Forward": "1",
+      "Settled at £nil": "5",
+      "Settled Claims": "7"
+    },
+    {
+      "Year": "2020",
+      "Month": "December",
+      "Total From Start": "4",
+      "Brought Forward": "1",
+      "New Claims": "21",
+      "Previous Backlog": "3",
+      "Re-opend in Month": "3",
+      "Closed": "15",
+      "Carried Forward": "0",
+      "Settled at £nil": "10",
+      "Settled Claims": "12"
+    },
+    {
+      "Year": "2021",
+      "Month": "January",
+      "Total From Start": "7",
+      "Brought Forward": "0",
+      "New Claims": "12",
+      "Previous Backlog": "1",
+      "Re-opend in Month": "0",
+      "Closed": "12",
+      "Carried Forward": "2",
+      "Settled at £nil": "11",
+      "Settled Claims": "11"
+    },
+    {
+      "Year": "2021",
+      "Month": "February",
+      "Total From Start": "5",
+      "Brought Forward": "2",
+      "New Claims": "3",
+      "Previous Backlog": "0",
+      "Re-opend in Month": "3",
+      "Closed": "1",
+      "Carried Forward": "0",
+      "Settled at £nil": "1",
+      "Settled Claims": "1"
+    }
+  ]
+}
