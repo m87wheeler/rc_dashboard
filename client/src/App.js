@@ -14,7 +14,7 @@ const App = () => {
   // ? load data on mount
   useEffect(() => {
     const fetchData = async () => {
-      const req = await fetch("http://localhost:8000/api/data");
+      const req = await fetch("/api/data");
       const res = await req.json();
       if (!res.success) {
         setError([true, res.message]);
