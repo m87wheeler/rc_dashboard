@@ -2,7 +2,10 @@ import { createContext, useReducer } from "react";
 import { filterReducer } from "./filterReducer";
 
 export const initialState = {
-  month: "202012",
+  year: "2020",
+  month: "December",
+  entries: [],
+  filteredIndex: 0,
 };
 
 export const FilterContext = createContext(null);

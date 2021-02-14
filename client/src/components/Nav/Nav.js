@@ -35,7 +35,7 @@ const Wrapper = styled.nav`
         display: block;
         width: 0;
         height: 0.1rem;
-        background: red;
+        background: crimson;
         transition: width 0.2s ease-in-out;
       }
 
@@ -48,6 +48,22 @@ const Wrapper = styled.nav`
   }
 `;
 
+const Button = styled.button`
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid #111;
+  background: ${(p) => p.theme.common.text};
+  color: ${(p) => p.theme.common.body};
+  border-radius: 0.25rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background: crimson;
+  }
+`;
+
 const Nav = ({ onClick, ...props }) => {
   return (
     <Wrapper {...props}>
@@ -55,9 +71,9 @@ const Nav = ({ onClick, ...props }) => {
         <li>Home</li>
         <li>Claims</li>
       </ul>
-      <button onClick={onClick} style={{ alignSelf: "center" }}>
+      <Button onClick={onClick} style={{ alignSelf: "center" }}>
         Toggle Theme
-      </button>
+      </Button>
     </Wrapper>
   );
 };
