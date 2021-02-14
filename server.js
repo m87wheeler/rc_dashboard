@@ -31,15 +31,14 @@ server.use(
     origin: "http://localhost:5000",
   })
 );
-
-/** server front end assets */
-server.use(express.static(path.join(__dirname, "./client/build")));
-server.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+/** serve front end assets */
+server.use(express.static(path.join(__dirname, "client", "build")));
 
 /** routes */
 server.use("/api/data", require("./routes/data.routes"));
+server.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 /** initiate server */
 const PORT = Number(process.env.PORT || 8000);
